@@ -1,183 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Son Borey Norint</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="header-inner">
-            <a href="#home" class="site-name">SON BOREY NORINT</a>
-            <nav class="main-nav">
-                <a href="#home">Home</a>
-                <a href="CV.pdf" download>CV</a>
-                <a href="#projects">Projects</a>
-                <a href="#training">Training</a>
-                <a href="#awards">Awards</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-        <hr class="header-rule">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Son Borey Norint." />
+    <title>Son Borey Norint — Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body class="archive-page home-page">
+    <a class="skip-link" href="#top">Skip to main content</a>
+    <header class="site-header">
+      <a class="name" href="#top">Son Borey Norint</a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
     </header>
-    <main>
-        <section id="home" class="section home-section">
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>
-                        Student of Math & Science<br>
-                        <a href="#" target="_blank" rel="noopener">Preah Sisowath New Generation School</a><br>
-                        Phnom Penh, Cambodia
-                    </p>
 
-                    <p class="email-line">
-                        <strong>Email:</strong>
-                        <a href="mailto:son.norint@gmail.com">son.norint@gmail.com</a>
-                    </p>
+    <main id="top">
+      <section id="about" class="intro">
+        <img
+          class="portrait"
+          src="assets/profile-photo.png"
+          alt="Portrait of Son Borey Norint"
+        />
+        <div class="intro-copy">
+          <p class="label">Portfolio / 2026</p>
+          <h1>Borey Norint Son</h1>
+          <p class="bio">
+            HI! welcome to my portfolio page. I am a math enthusiast and a coding enthusiast just finishing highschool and plan to double major in computer science and mathematicas. I am currently bulding new project since I have time to strenghth my skills, experince and background across field. 
+            I was a math student in Cambodia Math Camp hosted by RUPP, Math WOOT (AOPS) and OTIS (Olympaid Training). My passion for math started a really long time ago out of curiosity. On the other hand I started taking website developer in grade 7 and from their I start doing research and self taught myself until now and it became a hobby I am proud and happy to do. 
+            I went for the IMO 2 times 2025 and 2026 and I am currently preparing for the next IMO 2027.
+          </p>
+          <p class="bio"> <em><a class="resume-link" href="mailto:son.norint@gmail.com?subject=Resume%20request">Request my résumé</a></em> this website display something I love to do and will be updated every year. If you wanted to get in touch you can find me at son.norint@gmail.com</p>
+        </div>
+      </section>
 
-                    <p>
-                        <strong>Academic Interests:</strong> Mathematics, Artificial Intelligence, Competitive Programming
-                    </p>
-                    <ul>
-                        <li>Mathematical olympiad problem solving and proof techniques</li>
-                        <li>Algorithms, computer science, and AI research</li>
-                        <li>Geometry, number theory, and Combinatoric mathematics</li>
-                    </ul>
+      <section id="projects" class="projects">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Industry projects</p>
+        </div>
 
-                    <p>
-                        <strong>Math Olympiad Training:</strong>
-                        <a href="https://artofproblemsolving.com/woot">Math WOOT</a>,
-                        <a href="https://web.evanchen.cc/otis.html">OTIS</a>,
-                        <a href="https://moeys.gov.kh/kh">CMO Mathcamp</a>
-                    </p>
-                </div>
-
-                <div class="about-photo">
-                         <img src="photo.jpg" alt="Son Borey Norint">
-                </div>
+        <div class="project-list">
+          <article class="project-row">
+            <a class="project-image image-one" href="emath.html" aria-label="View E-Math Problem Collection project">
+              <span class="project-placeholder">E-Math Problem Collection</span>
+              <div class="project-gallery" aria-hidden="true">
+                <img src="assets/emath/emath1.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/emath/emath2.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/emath/emath3.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/emath/emath4.png" alt="" loading="lazy" decoding="async" />
+              </div>
+            </a>
+            <div class="project-info">
+              <div class="project-topline">
+                <p class="label">Project 01</p>
+                <p class="label">Math · Web</p>
+              </div>
+              <h3><a href="emath.html">E-Math Problem Collection</a></h3>
+              <p class="description">This is the first version of my idea to creating a platform for sharing and solving advance problem for the community. This idea is unique from other because we use "Khmer" to support student struggle with language barriers.</p>
+              <a class="view-link" href="emath.html">View project ↗</a>
             </div>
-        </section>
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <hr class="section-rule">
+          </article>
 
-            <div class="entry">
-                <p>
-                    <strong >E-Math Problem Collection</strong>
-                    &mdash; <a href="https://lumhat-4c86a.web.app/" target="_blank">see here</a>
-                   
-                </p>
-                <p>
-                    A curated digital collection of mathematical problems designed to challenge
-                    students and deepen problem-solving skills across various topics including
-                    number theory, combinatorics, geometry, and algebra inspired by AOPS made for Cambodian sutdent to get over language barrier and access to high quality problems.
-                </p>
+          <article class="project-row">
+            <a class="project-image image-two" href="khmer-archive.html" aria-label="View Khmer Archive project">
+              <span class="project-placeholder">ក</span>
+              <div class="project-gallery" aria-hidden="true"></div>
+            </a>
+            <div class="project-info">
+              <div class="project-topline">
+                <p class="label">Project 02</p>
+                <p class="label">Research · Math · Web</p>
+              </div>
+              <h3><a href="khmer-archive.html">Khmer Archive</a></h3>
+              <p class="description">A digital archive designed to make local stories easier to discover.</p>
+              <a class="view-link" href="khmer-archive.html">View project ↗</a>
             </div>
+          </article>
 
-            <div class="entry">
-                <p>
-                    <strong>Personal Website</strong>
-                    &mdash; <a href="https://sonboreynorint.github.io/" target="_blank">see here</a>
-                </p>
-                <p>
-                    This website, designed and built from scratch using HTML and CSS to
-                    showcase my academic profile, projects, and application portfolio.
-                </p>
+          <article class="project-row">
+            <a class="project-image image-three" href="current.html" aria-label="View Current project">
+              <span class="project-placeholder">64.7</span>
+              <div class="project-gallery" aria-hidden="true"></div>
+            </a>
+            <div class="project-info">
+              <div class="project-topline">
+                <p class="label">Project 03</p>
+                <p class="label">Product · Code</p>
+              </div>
+              <h3><a href="current.html">Current</a></h3>
+              <p class="description">A focused dashboard that turns live information into clear decisions.</p>
+              <a class="view-link" href="current.html">View project ↗</a>
             </div>
-        </section>
-        <section id="training" class="section">
-            <h2>Math Olympiad Training</h2>
-            <hr class="section-rule">
-            <p class="section-intro">
-                Competitive mathematics programs completed, each with a certificate of participation.
-            </p>
+          </article>
+        </div>
+      </section>
 
-            <div class="entry">
-                <p>
-                    <strong>Math WOOT</strong>
-                    &mdash; <a href="Woot certi (1).pdf">Certificate 2025</a>
-                    &mdash; <a href="#">Certificate 2026</a>
-                </p>
-                <p>
-                    Art of Problem Solving's Worldwide Online Olympiad Training — an intensive
-                    program for advanced mathematical problem solving and competition preparation.
-                </p>
+      <section class="projects secondary-projects">
+        <div class="section-title">
+          <h2>Experiments</h2>
+          <p>Technical and small projects</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row">
+            <a class="project-image image-four" href="wrist-band.html" aria-label="View Wrist band project">
+              <span class="project-placeholder"></span>
+              <div class="project-gallery" aria-hidden="true"></div>
+            </a>
+            <div class="project-info">
+              <div class="project-topline">
+                <p class="label">Project 04</p>
+                <p class="label">Sound · Data · Ongoing</p>
+              </div>
+              <h3><a href="wrist-band.html">Wrist band</a></h3>
+              <p class="description">A wearable device that detect sound wave coming and analyze it to see if it the sound coming from vehicle and alarm triggera and turn into vibration.
+                This help people who having hearing problem to be aware of any coming vihicle, avoid accident and alert from alarm. This project will going to present at AIM(AI in motion) 2026 in November.
+              </p>
+              <a class="view-link" href="wrist-band.html">View project ↗</a>
             </div>
+          </article>
 
-            <div class="entry">
-                <p>
-                    <strong>OTIS</strong> (Olympiad Training for Individual Study)
-                    &mdash; <a href="https://otis.evanchen.cc/dash/certify/2116/0a2af7ae744f6e4770cce10db7748478ebbb/">Certificate</a>
-                </p>
-                <p>
-                    A structured curriculum by Evan Chen for olympiad mathematics at the highest
-                    competitive level, covering proof techniques and advanced problem solving.
-                </p>
+          <article class="project-row">
+            <a class="project-image image-five" href="drone.html" aria-label="View Drone project">
+              <span class="project-placeholder"></span>
+              <div class="project-gallery" aria-hidden="true">
+                <img src="assets/drone/drone-perspective-view.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/drone/drone-top-view.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/drone/drone-front-view.png" alt="" loading="lazy" decoding="async" />
+                <img src="assets/drone/drone-component-view.png" alt="" loading="lazy" decoding="async" />
+              </div>
+            </a>
+            <div class="project-info">
+              <div class="project-topline">
+                <p class="label">Project 05</p>
+                <p class="label">Ongoing · Wifi flow · Flying Object</p>
+           
+              </div>
+              <h3><a href="drone.html">Drone</a></h3>
+              <p class="description">Small ideas, prototypes, and coding experiments. This drone can able to scan the inviroment they fly to map which area and get the most wifi signal. This fly around and create a heatmap to visualize the coverage.</p>
+              <a class="view-link" href="drone.html">View project ↗</a>
             </div>
+          </article>
+        </div>
+      </section>
 
-            <div class="entry">
-                <p>
-                    <strong>CMO Mathcamp</strong>
-                    &mdash; <a href="Letter to Organizer_IMO.pdf">Certificate 2025</a>
-                    &mdash; <a href="CMO 2026.pdf">Certificate 2026</a>
-                </p>
-                <p>
-                    An intensive mathematical enrichment program that brings together talented
-                    students for advanced exploration of mathematics beyond the standard curriculum.
-                </p>
-            </div>
-        </section>
-        <section id="awards" class="section">
-            <h2>Achievements &amp; Awards</h2>
-            <hr class="section-rule">
-            <div class="entry">
-                <p><strong>IMO participant</strong> &mdash; International Mathematical Olympiad</p>
-                <p>Represented Cambodia at the International Mathematical Olympiad 2025 and International Mathematical Olympiad 2026.</p>
-            </div>
-
-            <div class="entry">
-                <p><strong>Team selection</strong> &mdash; 1st Place in 2026 and 3rd Place in 2025</p>
-                <p>A test at CMO mathcamp subject of 8 Problems 8 hours to select students for the national team.</p>
-            </div>
-
-            <div class="entry">
-                <p><strong>Cambodia Mathematical Olympiad - National</strong> &mdash; 1st Place in 2023 and 6 Place in 2026</p>
-                <p>National competition for talented mathematics students in Cambodia.</p>
-            </div>
-
-            <div class="entry">
-                <p><strong>Cambodia Mathematical Olympiad - Regional</strong> &mdash; 2nd Place in 2023 and 1st Place in 2026</p>
-                <p>Regional competition for talented mathematics students in Cambodia those who score above the threshold will be selected for the national round.</p>
-            </div>
-
-            
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <hr class="section-rule">
-
-            <table class="contact-table">
-                <tr>
-                    <td class="contact-label">Email</td>
-                    <td><a href="mailto:son.norint@gmail.com">son.norint@gmail.com</a></td>
-                </tr>
-                <tr>
-                    <td class="contact-label">Phone</td>
-                    <td><a href="tel:+85517356156">+855 17 356 156</a></td>
-                </tr>
-                <tr>
-                    <td class="contact-label">Location</td>
-                    <td>Phnom Penh, Cambodia</td>
-                </tr>
-            </table>
-        </section>
+      <section class="contact">
+        <p class="label">Contact</p>
+        <h2>Have a project in mind?</h2>
+        <a href="mailto:son.norint@gmail.com">son.norint@gmail.com ↗</a>
+      </section>
     </main>
-    <footer>
-        <hr class="footer-rule">
-        <p>Son Borey Norint &nbsp;&middot;&nbsp; Phnom Penh, Cambodia &nbsp;&middot;&nbsp; 2026</p>
-    </footer>
 
-</body>
+    <footer>
+      <p>© <span id="year">2026</span> Son Borey Norint</p>
+      <div>
+        <a href="mailto:son.norint@gmail.com?subject=Resume%20request">Résumé</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>
