@@ -31,6 +31,12 @@ a:hover {
     text-decoration: underline;
 }
 
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--crimson);
+    outline-offset: 3px;
+}
+
 header {
     padding: 1.4rem 3rem 0;
     position: sticky;
@@ -217,6 +223,11 @@ footer {
 footer p {
     font-size: 0.9rem;
     color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
 
 @media (max-width: 720px) {
